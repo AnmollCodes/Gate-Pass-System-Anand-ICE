@@ -122,7 +122,7 @@ def main():
                     st.image(result_img, caption=f'Eyes Detected: {result_count}', use_column_width=True)
 
     elif choice == "Webcam":
-        st.subheader("Real-Time Face Detection")
+        st.subheader("Real Time Face Detection")
         
         # Initialize the webrtc context
         webrtc_ctx = webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
